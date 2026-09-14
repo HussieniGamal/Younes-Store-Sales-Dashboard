@@ -1,97 +1,89 @@
-# 🛒 Younes Store — Sales Performance Dashboard
-### لوحة تحليل مبيعات يونس ستور
+# 🛒 Younes Store Sales Dashboard | Power BI
 
----
+An interactive multi-page **Power BI retail analytics dashboard** built to evaluate store performance across sales trends, products, employees, cities, and payment status.
 
-## 📌 Overview | نظرة عامة
+<p align="center">
+  <img src="images/home.jpg" width="100%" alt="Younes Store Dashboard Home">
+</p>
 
-**EN:** An interactive multi-page Power BI dashboard built to analyze the sales performance of **Younes Store**, a retail electronics store. The dashboard covers temporal trends, product & employee performance, and city-level insights.
+## 📊 Project Snapshot
 
-**AR:** لوحة بيانات تفاعلية متعددة الصفحات مبنية بـ Power BI لتحليل أداء مبيعات **يونس ستور**، متجر إلكترونيات. تغطي اللوحة الاتجاهات الزمنية، أداء المنتجات والموظفين، والتوزيع الجغرافي.
+| KPI | Value |
+|---|---:|
+| Total Sales | **12.7M** |
+| Total Invoices | **1,001** |
+| Total Quantity | **5,018** |
+| Average Invoice Value | **12.7K** |
 
----
+## 🎯 Business Questions
 
-## 📊 Key Metrics | المؤشرات الرئيسية
+- Which months and quarters generate the strongest sales?
+- Which products contribute most to revenue?
+- Which employees drive the highest sales?
+- Which cities perform best?
+- How much customer balance remains outstanding?
+- How does payment status vary across locations?
 
-| Metric | Value |
-|---|---|
-| 💰 Total Sales / إجمالي المبيعات | **12.7M** |
-| 🧾 Total Invoices / إجمالي الفواتير | **1,001** |
-| 📦 Total Quantity / إجمالي الكمية | **5,018** |
-| 🧮 Avg Invoice Value / متوسط قيمة الفاتورة | **12.7K** |
+## 📈 Dashboard Pages
 
----
+### 1. Temporal Analysis
+- Monthly and quarterly sales trends
+- **Best Month:** January — **1,209,727**
+- **Best Quarter:** Q1 — **3,292,430**
 
-## 📄 Dashboard Pages | صفحات الداشبورد
+<p align="center"><img src="images/temporal.jpg" width="100%" alt="Temporal Sales Analysis"></p>
 
-### 1️⃣ Temporal Analysis | تحليل مبيعات زمني
-- Monthly & quarterly sales trends
-- **Best Month:** January — 1,209,727
-- **Best Quarter:** Q1 — 3,292,430
+### 2. Product & Employee Analysis
+- Product-category comparison across 10 categories
+- Employee comparison across 8 employees
+- **Top Product:** Cameras — **1,486,480**
+- **Top Employee:** Hani Hamdi — **1,842,451**
 
-### 2️⃣ Product & Employee Analysis | تحليل المنتج والموظف
-- Sales breakdown by product category (10 categories)
-- Sales breakdown by employee (8 employees)
-- **Top Product:** Cameras — 1,486,480
-- **Top Employee:** Hani Hamdi — 1,842,451
+<p align="center"><img src="images/product_employee.jpg" width="100%" alt="Product and Employee Analysis"></p>
 
-### 3️⃣ City Analysis | تحليل مبيعات للمدينة
-- Sales distribution across 7 Saudi cities
-- Payment method breakdown (Paid / Partially Paid / Unpaid)
-- **Top City:** Jeddah — 1,991,664
-- **Outstanding Balance / الرصيد المستحق:** 2M
+### 3. City Analysis
+- Sales across 7 Saudi cities
+- Paid, partially paid, and unpaid analysis
+- **Top City:** Jeddah — **1,991,664**
+- **Outstanding Balance:** approximately **2M**
 
----
+<p align="center"><img src="images/city.jpg" width="100%" alt="City Sales Analysis"></p>
 
-## 🗺️ Cities Covered | المدن المشمولة
+## 💡 Key Insights
 
-`جدة` • `المدينة` • `الرياض` • `مكة` • `الدمام` • `بريدة` • `الخبر`
+- Q1 is the strongest quarter in the dashboard.
+- Cameras lead product sales.
+- Employee performance varies significantly, making individual contribution visible.
+- Jeddah is the strongest city in the dataset.
+- The outstanding balance is material enough to justify dedicated receivables monitoring.
 
----
+## ✅ Business Recommendations
 
-## 🛠️ Tools Used | الأدوات المستخدمة
+- Protect inventory availability for top-selling product categories.
+- Replicate sales practices from the strongest employees where applicable.
+- Review lower-performing cities for assortment, marketing, or local demand gaps.
+- Track outstanding balances as a dedicated collections KPI.
+- Use monthly and quarterly trends to guide targets and promotion planning.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+## 🛠️ Tools & Skills
 
----
+`Power BI` `DAX` `Excel` `Retail Analytics` `Sales Analysis` `KPI Design` `Data Visualization` `Business Analysis`
 
-## 🖼️ Dashboard Preview | معاينة الداشبورد
+## 📁 Repository Structure
 
-### Home Page
-![Home](images/home.jpg)
-
-### Temporal Analysis | التحليل الزمني
-![Temporal](images/temporal.jpg)
-
-### Product & Employee | المنتج والموظف
-![Product Employee](images/product_employee.jpg)
-
-### City Analysis | تحليل المدينة
-![City](images/city.jpg)
-
----
-
-## 📁 Repository Structure | هيكل الريبو
-
-```
+```text
 Younes-Store-Sales-Dashboard/
-│
-├── images/
-│   ├── home.jpg
-│   ├── temporal.jpg
-│   ├── product_employee.jpg
-│   └── city.jpg
-│
-└── README.md
+├── README.md
+└── images/
+    ├── home.jpg
+    ├── temporal.jpg
+    ├── product_employee.jpg
+    └── city.jpg
 ```
 
----
+## 👤 Author
 
-## 👤 Author | المؤلف
+**Hussieni Gamal**  
+Data Analyst | Business Intelligence | Power BI | SQL | Excel | Python
 
-**Hussini Gamal** — Data Analyst | Power BI • SQL • Excel
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/husieni-gamal-549b68134)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HussieniEltawil)
+[LinkedIn](https://www.linkedin.com/in/hussieni-gamal-549b68134/) • [GitHub Profile](https://github.com/HussieniGamal) • [Portfolio](https://sites.google.com/view/hussienigamal/home)
