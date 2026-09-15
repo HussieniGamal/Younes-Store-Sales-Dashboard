@@ -1,5 +1,17 @@
 # 🛒 Younes Store Sales Dashboard | Power BI
 
+## Business value at a glance
+
+**Decision:** Where should the retail team focus sales reviews and collections follow-up?
+
+- Summarizes **1,001 invoices** and **5,018 items** in the published dashboard.
+- Reports approximately **2M outstanding balance**, making receivables a clear investigation priority.
+- Compares products, employees, cities, and periods to guide follow-up questions.
+
+**Inspect the work:** [City and payment analysis](images/city.jpg) · [Product and employee analysis](images/product_employee.jpg) · [Sales by period](images/temporal.jpg)
+
+**Evidence boundary:** The repository currently contains screenshots and documentation. Currency and reporting period are not specified in the existing documentation; monetary values retain the dashboard's labels. Outstanding balances are not necessarily overdue. No collections improvement or sales uplift is claimed.
+
 An interactive multi-page **Power BI retail analytics dashboard** built to evaluate store performance across sales trends, products, employees, cities, and payment status.
 
 <p align="center">
